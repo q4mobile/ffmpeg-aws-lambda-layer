@@ -38,7 +38,7 @@ Resources:
       Handler: index.handler
       Timeout: 180
       MemorySize: 1024
-      Runtime: nodejs10.x
+      Runtime: nodejs20.x
       CodeUri: src
       Layers:
         - !GetAtt ffmpeglambdalayer.Outputs.LayerVersion
